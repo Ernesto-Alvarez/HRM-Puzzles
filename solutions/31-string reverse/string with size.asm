@@ -1,0 +1,32 @@
+-- HUMAN RESOURCE MACHINE PROGRAM --
+
+    COMMENT  0
+a:
+b:
+    BUMPUP   14
+    INBOX   
+    JUMPZ    d
+    COPYTO   [14]
+    JUMP     b
+    COMMENT  1
+c:
+d:
+    BUMPDN   14
+    JUMPZ    a
+    COPYFROM [14]
+    OUTBOX  
+    JUMP     c
+
+
+DEFINE COMMENT 0
+eJxTZmBgWOcxVX6dx9Pexe5Nu4Fchv7YVrn+2L8LIOysFf2xC/eC2Kax5pKOceaSPvGfVPOS1hq1pKTb
+z07b6hKR4ejHlfk7SidnWZp5rnL+8vyCkuX56ypSCqUbThQd63Yua5zhV944Y3n5/jmple/mP6hR2fqt
+buKe17Xzy3VrmHN1axy0LWvNJRlGwSgYBXQHAM8kOOQ;
+
+DEFINE COMMENT 1
+eJxzZmBgeCA6L6RGhDvmlHBisbKIdEO7aGTLa7FrPS7izlN4pSbM7JD1XuYqX7myU3XFGjf16+sf665Y
+s0C/cuVPfeulJcb35glYZbYetnIqbLA5mqFuszfM1mya02PTdPvthq/NHqn2GtTK1OnzSs01tBSzsHkg
+Os0JaCVDtpemtaz33erbPpmt9n4LZi325130x//4OuGgiXs+hUWfEomKPqUVU3XmRWzVmd2JuscvJd8/
+ODtNdMv/9Hvz/qezTFiWvryzP/VtjVmqZXxLSl9wS8pnD7PUaU6OaRDzv9WtNdLv6TWQnOSvs2Ceoubv
+df46IPHV0xU1V0+v0y+eNS+keJZw3o3ZxpPd572b/3Pe+QMMo2AUjEAAANyVckc;
+
